@@ -8,7 +8,10 @@ import Zoom from 'react-reveal/Zoom';
 function Layout() {
     return (
         <>
-            <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', background: '#171717', py: 12,mt:-1 }} >
+            <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', background: '#171717', py: 12,mt:{
+                md:0,
+                xs:-1
+            } }} >
                 <Zoom cascade >
                     <Typography variant="h2" sx={{
                         fontSize: {

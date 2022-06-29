@@ -128,7 +128,7 @@ function Location() {
                         xs: '100%'
                     }, height: {
                         md:'550px'
-                    }
+                    },overflow:'hidden'
                 }} >
                     <Zoom cascade >
                         <img src="/sample2.png" alt="img" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />

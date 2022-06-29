@@ -13,7 +13,10 @@ import Zoom from 'react-reveal/Zoom';
 function Access() {
     return (
         <>
-            <Box id='Access' sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center',mt:-1 }} >
+            <Box id='Access' sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center',mt:{
+                md:0,
+                xs:-1
+            } }} >
                 <Container maxWidth="lg" sx={{ minHeight: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
                 <Zoom cascade >
                     <Typography variant="h2" sx={{

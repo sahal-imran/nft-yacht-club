@@ -67,7 +67,7 @@ a {
   width: 100%;
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../public/heroBG.png");
+    url("../Backgrounds/heroBG.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -76,13 +76,13 @@ a {
   width: 100%;
   min-height: 100vh;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-    url("../public/accessBG.png");
+    url("../Backgrounds/accessBG.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 #ReadyToBoard {
   width: 100%;
-  background-image: url("../public/readytoboardBG.png");
+  background-image: url("../Backgrounds/readytoboardBG.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -97,23 +97,23 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("../public/bg.png");
+  background-image: url("../Backgrounds/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   filter: blur(12px) opacity(64%) brightness(50%);
 }
 #HeroAboutBottom {
-  background-image: url("../public/bottom.jpg");
+  background-image: url("../Backgrounds/bottom.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 #HowitWoksShortBG{
-  background-image: url("../public/bgshort.png");
+  background-image: url("../Backgrounds/bgshort.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 #HowitWoksShortBG2{
-  background-image: url("../public/bgshort2.png");
+  background-image: url("../Backgrounds/bgshort2.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -147,6 +147,9 @@ a {
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1uzzt7u-MuiPaper-root-MuiAccordion-root {
   background: #0F242B;
   border-radius: 17px;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.Mui-expanded.MuiAccordion-gutters.css-1uzzt7u-MuiPaper-root-MuiAccordion-root {
+  margin-top: 16px;
 }
 @media (min-width: 600px) {
   .css-7lqx49-MuiContainer-root {

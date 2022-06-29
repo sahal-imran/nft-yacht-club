@@ -64,7 +64,7 @@ function Team() {
                                                 xs: '16px'
                                             }, lineHeight: '24px', fontFamily: 'Bitter', fontWeight: 'medium', color: '#34EFFE', textAlign: 'center', mt: 4
                                         }} component="div">
-                                            MINT OPENS FOR
+                                            Co-Founder
                                         </Typography>
                                         <Typography variant="h2" sx={{
                                             fontSize: {
@@ -72,7 +72,7 @@ function Team() {
                                                 xs: '14px'
                                             }, lineHeight: '30px', fontFamily: 'Bitter', fontWeight: 'regular', color: 'white', textAlign: 'center', mt: 1
                                         }} component="div">
-                                            MINT OPENS FOR
+                                            Steven Tanzman
                                         </Typography>
                                     </Zoom>
                                 </Box>
