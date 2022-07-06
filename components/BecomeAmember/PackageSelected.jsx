@@ -78,7 +78,7 @@ function Gold() {
                                             url={PackageName === 'gold' ? '/video/GOLD.mp4' : '/video/SILVER.mp4' }
                                             width='100%'
                                             height='100%'
-                                            volume={0.9}
+                                            volume={0}
                                             controls={false}
                                             muted={false}
                                             playing={true}
