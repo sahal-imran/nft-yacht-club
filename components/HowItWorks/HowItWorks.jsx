@@ -140,9 +140,21 @@ function HowItWorks() {
                     xs: 'center'
                   }, mt: 2,
                 }} component="div">
-                  Ownership of this NFT represents exclusive access to this members-only cocktail lounge. As an NFT Yacht Club member, you will have access to our cocktail lounge, outdoor area, special events, and more based on reservation for tables and first come first serve for the bar.<br />
+                  Ownership of this NFT represents exclusive
+                  access to “The NFT Yacht Club” community and
+                  access to a members-only yacht lounge. As an
+                  NFT member you will have access to our fine
+                  dining restaurant located on the first level, a
+                  bustling cocktail cigar lounge on the second level,
+                  a premium nightlife experience on the third level
+                  and enjoy the outdoor sky deck on the fourth level.<br />
                   <br />
-                  As a member you will be entitled to one or two guests dependent on low peak-high peak days. Food and beverage sold separately and are not included in the token price. Payment for beverages will be accepted in USD, Credit Card, and Debit Card.
+                  Food and Beverage will be sold separately and are
+                  not included in the token price. Payment for F&B
+                  will be accepted in cash or any major Credit Cards
+                  and Debit Cards. As regulation becomes more
+                  clear we will aim to add crypto-currencies for
+                  payments.
                 </Typography>
               </Zoom>
             </Box>
@@ -170,7 +182,18 @@ function HowItWorks() {
                   xs: '16px'
                 }, lineHeight: '36px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: 'center', mt: 4
               }} component="div">
-                As an NFT, the membership becomes an asset to the token holder, which can later be sold, transferred or leased to others on the secondary market. By utilizing NFT’s, FFC is able to create a loyal, member-community that we can provide special experiences for. NFT’s create new modernistic financial models, which will allow FFC to deliver an exceptional and sustainable product for years to come.
+                As an NFT, the membership
+                becomes an asset to the token
+                holder as opposed to traditional
+                memberships. Allow the token
+                holder to use, sell, transfer or
+                lease the NFT on the secondary
+                market. By utilizing NFTs we are not only
+                expanding the use of NFTs in real
+                world businesses but also allowing
+                us to interact and communicate
+                with our community in a much
+                more efficient and secure way!
               </Typography>
             </Zoom>
           </Box>

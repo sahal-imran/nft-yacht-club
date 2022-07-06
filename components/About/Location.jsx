@@ -37,7 +37,7 @@ function Location() {
                                 xs: '16px'
                             }, lineHeight: '30px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: 'center', mt: 4
                         }} component="div">
-                            The NFT Yacht Club docked at our New York City & Miami locations will provide members unlimited access to a private dining room that will span 5,000+ square feet. The space will consist of a bustlingcigarcocktail lounge, upscale restaurant, the Havana Room private event space for up to 150 guests, and an outdoor rooftop lounge and music venue for 600-members. The first deck music venue with a NFT art-inspired design will feature state-of-the-art sound and lighting. In all just over 25,000 square feet of space.
+                            The NFT Yacht Club docked at our New York City & Miami locations will provide members unlimited access to a private dining room that will span 5,000+ square feet. The space will consist of a bustling cigar cocktail lounge, upscale restaurant, the Havana Room private event space for up to 150 guests, and an outdoor rooftop lounge and music venue for 600-members. The first deck music venue with a NFT art-inspired design will feature state-of-the-art sound and lighting. In all just over 25,000 square feet of space.
                         </Typography>
                     </Zoom>
                 </Container>
@@ -107,7 +107,7 @@ function Location() {
                                     xs: 'center'
                                 }, mt: 2
                             }} component="div">
-                                Locally sourced New YorkHudsonValley and Miami multicultural feast of flavors. The NFT Yacht Club will be a Mediterranean with a Latin twist and flarefocused restaurant.With a robust raw bar, drawing from international influences, created by award-winning chefs and hospitality experts.
+                                Locally sourced New Hudson Valley, New York and Miami multicultural feast of flavors. The NFT Yacht Club will be a Mediterranean with a Latin twist and flarefocused restaurant.With a robust raw bar, drawing from international influences, created by award-winning chefs and hospitality experts.
                             </Typography>
                         </Box>
                     </Zoom>
@@ -176,7 +176,7 @@ function Location() {
                                     xs: 'center'
                                 }, mt: 2
                             }} component="div">
-                                Locally sourced New YorkHudsonValley and Miami multicultural feast of flavors. The NFT Yacht Club will be a Mediterranean with a Latin twist and flarefocused restaurant.With a robust raw bar, drawing from international influences, created by award-winning chefs and hospitality experts.
+                                Our Executive Chef and her handpicked team will be solely focused on crafting original menus and culinary experiences tailored to exceed the personal dining expectations of our members and their guests.
                             </Typography>
                         </Box>
                     </Zoom>

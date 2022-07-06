@@ -358,7 +358,7 @@ function Member() {
                                 <Box sx={{
                                     width: '100%', display: 'flex', justifyContent: 'start', ml: {
                                         md: 8
-                                    }, alignItems: 'center', height: '70px'
+                                    }, alignItems: 'center', height: '70px',position:'relative'
                                 }} >
                                     <Zoom cascade >
                                         <Typography variant="h2" sx={{
@@ -368,6 +368,16 @@ function Member() {
                                             }, fontFamily: 'Bitter', fontWeight: 'medium', color: '#FFFFFF'
                                         }} component="div">
                                             Main Dining Rom
+                                        </Typography>
+                                    </Zoom>
+                                    <Zoom cascade >
+                                        <Typography variant="h2" sx={{
+                                            fontSize: {
+                                                md: '20px',
+                                                xs: '12px'
+                                            }, fontFamily: 'Bitter', fontWeight: 'medium', color: '#34EFFE',position:'absolute',left:'0px',top:'-26px'
+                                        }} component="div">
+                                            ACCESS
                                         </Typography>
                                     </Zoom>
                                 </Box>

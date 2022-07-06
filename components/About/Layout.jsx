@@ -80,7 +80,7 @@ function Layout() {
                                         xs: 'center'
                                     }, mt: 2
                                 }} component="div">
-                                    Locally sourced New YorkHudsonValley and Miami multicultural feast of flavors. The NFT Yacht Club will be a Mediterranean with a Latin twist and flarefocused restaurant.With a robust raw bar, drawing from international influences, created by award-winning chefs and hospitality experts.
+                                    The heart and soul of our yacht, where the excitement happens! Our 150-seat restaurant with an open-kitchen design will anchor our sprawlingyachtspace, with each table being meticulously placed for comfortability and unobstructed views.
                                 </Typography>
                             </Box>
                         </Zoom>
@@ -175,9 +175,9 @@ function Layout() {
                                         Up to 150 Guests
                                     </Typography>
                                     <Typography variant="h2" sx={{
-                                        fontSize: '24px', lineHeight: '28px', fontFamily: 'AvenirNextRegular', color: '#FFFFFF', textTransform: 'capitalize', textAlign: 'center', mt: 4
+                                        fontSize: '24px', lineHeight: '28px', fontFamily: 'AvenirNextRegular', color: '#FFFFFF', textAlign: 'center', mt: 4
                                     }} component="div">
-                                        Up to 150 Guests
+                                        for a Seated Dinner
                                     </Typography>
                                 </Box>
                             </Zoom>
@@ -274,7 +274,7 @@ function Layout() {
                                         xs: 'center'
                                     }, mt: 2
                                 }} component="div">
-                                    Thenewest trendsetting (NFT member only) Cigar lounge on the water. The NFT Yacht Club’s Cigar Loungewill deliver unparalleled service to our members and guests. Setting sail out of Pier 40 or Miami, relax and enjoy the elegance of a fine cigar and single malt scotch in our lounge or on our outside decks while taking in the stunning views of the New York City skyline or Miami’s Biscayne Bay.
+                                    The newest trendsetting (NFT member only) Cigar lounge on the water. The NFT Yacht Club’s Cigar Lounge will deliver unparalleled service to our members and guests. Setting sail out of Pier 40 or Miami, relax and enjoy the elegance of a fine cigar and single malt scotch in our lounge or on our outside decks while taking in the stunning views of the New York City skyline or Miami’s Biscayne Bay.
                                 </Typography>
                             </Zoom>
                         </Box>
@@ -289,7 +289,7 @@ function Layout() {
                                     xs: '16px'
                                 }, fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: 'start', mt: 4
                             }} component="div">
-                                Whether you are on board for a business meeting, an intimate dinner date, or anything in between, our professional and attentive staff will provide an unforgettable experience. Our Cigar Bar is designed as a sleek midcentury styled lounge that transports guests to another place and time. True to the age of the decadent Havana High Life it will be a truly exquisite experience. The NFT Yacht Club’s premier walk-in humidor –will offers a selection of more than 400 premium hand-rolled cigars, ranging from rare pre-embargo Cubans to the finest handmade selections available on the cigar marketplace. <br />
+                                Whether you are on board for a business meeting, an intimate dinner date, or anything in between, our professional and attentive staff will provide an unforgettable experience. Our Cigar Bar is designed as a sleek midcentury styled lounge that transports guests to another place and time. True to the age of the decadent Havana High Life it will be a truly exquisite experience. The NFT Yacht Club’s premier walk-in humidor –will offer a selection of more than 400 premium hand-rolled cigars, ranging from rare pre-embargo Cubans to the finest handmade selections available on the cigar marketplace. <br />
                                 <br />
                                 Our expert tobacconists are always at the ready to assist with your optimal selection. Classics elevated with a modern approach highlight the cocktail menu created by our team of NYC mixologists. We have curated our cocktail creations to offer balanced flavors to compliment the unique flavors of each cigar, from the spicy Macau de Isle to the vanilla notes in Corleone’s Choice. Complementing the cocktails & cigars will be an extensive menu by Our Executive Chef. A carefully crafted menu of time-honored plates including Steak Tartare prepared tableside, a Yellowfin Tuna Crudo, seared Hudson Valley Foie Gras with brandied cherries, Caviar with all its accouterments, Lobster Tail, Ribeye Steak, Shrimp Cocktail, Spicy Tuna Tarata, Prosciutto Di Parma & Deviled Eggs are just a few of our chef’s favorites.   <br />
                                 <br />
@@ -434,7 +434,7 @@ function Layout() {
                                         xs: 'center'
                                     }, mt: 2
                                 }} component="div">
-                                    The Nightclub is the only room without a view; a Vegas-style club features the elevated DJ booth with both beauty and functionality up close and the personal dance floor is surrounded by granite VIP banquettes upholstered in sumptuous leather. The theme of opulence is carried throughout this stellar adult playground. Besides the centrally located, elevated DJ booth, The Strip Room has huge dual-sided LED video screens that sync with the music and offer 360-degree movement. What will make this Las Vegasstylenightclub different from other venues is its lineup of DJs and live performances. Each week has a solid mix between EDM, open format, hip hop, and live on stage concerts. If you can’t get into the groove on this dance floor then you should probably check your pulse.
+                                    The Nightclub is the only room without a view; a Vegas-style club features the elevated DJ booth with both beauty and functionality up close and the personal dance floor is surrounded by granite VIP banquettes upholstered in sumptuous leather. The theme of opulence is carried throughout this stellar adult playground. Besides the centrally located, elevated DJ booth, The Strip Room has huge dual-sided LED video screens that sync with the music and offer 360-degree movement. What will make this Las Vegas style night club different from other venues is its lineup of DJs and live performances. Each week has a solid mix between EDM, open format, hip hop, and live on stage concerts. If you can’t get into the groove on this dance floor then you should probably check your pulse.
                                 </Typography>
                             </Zoom>
                         </Box>

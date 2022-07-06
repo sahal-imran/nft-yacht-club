@@ -29,7 +29,7 @@ function MintSchedule() {
                                 md: '85px'
                             }
                         }} component="div">
-                            Mint Schedule for July 8th, 2022
+                            mint schedule for August 2022
                         </Typography>
                     </Zoom>
                     <Box sx={{ width: '90%', height: '1px', backgroundColor: '#95BCCE', opacity: .2, mt: 4 }} ></Box>
@@ -85,7 +85,7 @@ function MintSchedule() {
                                         md: 18
                                     }
                                 }} component="div">
-                                    10:00 AM
+                                    12:00 PM
                                 </Typography>
                             </Zoom>
                         </Box>
@@ -128,11 +128,11 @@ function MintSchedule() {
                                         xs: '20px'
                                     }, fontFamily: 'Bitter', fontWeight: 'medium', color: '#FFFFFF',
                                 }} component="div">
-                                    1,000 Tokens<br />
-                                    850 Gold<br />
-                                    250 Platinum<br />
+                                    5,000 Tokens<br />
+                                    3,500 Gold<br />
+                                    1000 Platinum<br />
                                     <br />
-                                    Wallets that won a guaranteed spot. Show up anytime in this window and easily mint your pass. If you don’t mint during this time, your pass may be claimed by someone on the waitlist.
+                                    → Wallets that won a guaranteed spot. Show up anytime in this window and easily mint your pass. If you don’t mint during this time, your pass may be claimed by someone on the waitlist.
                                 </Typography>
                             </Zoom>
                         </Box>
@@ -157,7 +157,7 @@ function MintSchedule() {
                                         md: 18
                                     }
                                 }} component="div">
-                                    10:00 AM
+                                    1:00 PM
                                 </Typography>
                             </Zoom>
                         </Box>
@@ -200,11 +200,10 @@ function MintSchedule() {
                                         xs: '20px'
                                     }, fontFamily: 'Bitter', fontWeight: 'medium', color: '#FFFFFF',
                                 }} component="div">
-                                    8,500 tokens +/- any tokens not allocated in premint<br />
-                                    6,750 Gold<br />
-                                    1,650 Platinum<br />
-                                    <br />
-                                    Wallets that pre-registered on the premint access list, but didn’t win a guaranteed spot can mint during this time. First come first serve.
+                                    Remaining tokens will
+                                    be available for mint
+                                    during this period to the
+                                    public.
                                 </Typography>
                             </Zoom>
                         </Box>
@@ -219,21 +218,7 @@ function MintSchedule() {
                             xs: 1
                         }, px: 2
                     }} >
-                        <Box sx={{ width: '50%', display: 'flex', justifyContent: 'start', alignItems: 'center' }} >
-                            <Zoom cascade >
-                                <Typography variant="h2" sx={{
-                                    fontSize: {
-                                        md: '54px',
-                                        xs: '24px'
-                                    }, fontFamily: 'AvenirNextUltraLight', fontWeight: 600, color: '#FFFFFF', textTransform: 'uppercase', textShadow: '0px 0px 6px white', ml: {
-                                        md: 18
-                                    }
-                                }} component="div">
-                                    - - -
-                                </Typography>
-                            </Zoom>
-                        </Box>
-                        <Box sx={{ width: '50%', display: 'flex', justifyContent: 'start', alignItems: 'center' }} >
+                        <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
                             <Zoom cascade >
                                 <Typography variant="h2" sx={{
                                     fontSize: {
@@ -253,17 +238,7 @@ function MintSchedule() {
                         }
                     }} >
                         <Box sx={{
-                            width: '50%', display: {
-                                md: 'flex',
-                                xs: 'none'
-                            }, justifyContent: 'start', alignItems: 'center'
-                        }} >
-                        </Box>
-                        <Box sx={{
-                            width: {
-                                md: '50%',
-                                xs: '100%'
-                            }, display: 'flex', justifyContent: 'start', alignItems: 'center'
+                            width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center'
                         }} >
                             <Zoom cascade >
                                 <Typography variant="h2" sx={{

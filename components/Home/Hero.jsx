@@ -22,7 +22,7 @@ function Hero() {
                         fontSize: {
                             md:'99px',
                             xs:'40px'
-                        }, fontFamily: 'AvenirNextUltraLight', fontWeight: 600, color: '#FFFFFF', textTransform: 'uppercase',textAlign:'center'
+                        }, fontFamily: 'AvenirNextUltraLight', fontWeight: 600, color: '#FFFFFF', textTransform: 'uppercase',textAlign:'center',textShadow: '0px 0px 6px white',
                     }} component="div">
                         The NFT Yacht Club
                     </Typography>

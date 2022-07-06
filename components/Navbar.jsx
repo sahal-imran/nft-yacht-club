@@ -81,7 +81,7 @@ function Navbar() {
                   <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '40px', height: '40px', mr: 1 }} >
                     <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/metamask.png" alt="icon" />
                   </Box>
-                  Become a Member
+                  Connect Wallet
                 </Button>
               </a>
             </Link> : <Link href="/membership">

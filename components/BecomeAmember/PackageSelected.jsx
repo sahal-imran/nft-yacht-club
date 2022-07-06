@@ -7,6 +7,7 @@ import { useState } from 'react';
 import Button from '@mui/material/Button';
 import { useRouter } from "next/router";
 import Zoom from 'react-reveal/Zoom';
+import ReactPlayer from 'react-player';
 
 function Gold() {
     const router = useRouter();
@@ -22,7 +23,7 @@ function Gold() {
             <Box id='Member' sx={{
                 width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#03171D', py: {
                     md: 12
-                },mt:-1
+                }, mt: -1
             }} >
                 <Container maxWidth="lg" sx={{
                     minHeight: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', mx: {
@@ -63,14 +64,27 @@ function Gold() {
                         }
                     }} >
                         <Box sx={{ width: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                            <Box sx={{
-                                width: {
-                                    md: '230px',
-                                    xs: '100%'
-                                }
+                            <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'relative', overflow: 'hidden'
                             }} >
                                 <Zoom cascade >
-                                    <img src={PackageName === 'gold' ? "/GOLD.gif" : "/SILVER.gif"} alt="img" style={{ width: '100%', height: '100%' }} />
+                                    <Box sx={{
+                                        width: {
+                                            md: '230px',
+                                            xs: '100%'
+                                        }
+                                    }} className='player-wrapper'>
+                                        <ReactPlayer
+                                            className='react-player'
+                                            url={PackageName === 'gold' ? '/video/GOLD.mp4' : '/video/SILVER.mp4' }
+                                            width='100%'
+                                            height='100%'
+                                            volume={0.9}
+                                            controls={false}
+                                            muted={false}
+                                            playing={true}
+                                            loop={true}
+                                        />
+                                    </Box>
                                 </Zoom>
                             </Box>
                         </Box>
@@ -104,7 +118,7 @@ function Gold() {
                                             <Typography variant="h2" sx={{
                                                 fontSize: '44px', lineHeight: '53px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', ml: 2
                                             }} component="div">
-                                                5
+                                                {PackageName === 'gold' ? "1.5" : "5"}
                                             </Typography>
                                         </Box>
                                     </Zoom>
@@ -160,9 +174,21 @@ function Gold() {
                                 xs: '16px'
                             }, lineHeight: '30px', fontFamily: 'Bitter', fontWeight: 'light', color: '#FFFFFF', textAlign: 'center', mt: 8
                         }} component="div">
-                            Ownership of this NFT represents exclusive access to this members-only cocktail lounge. As an NFT Yacht Club member, you will have access to our cocktail lounge, outdoor area, special events, and more based on reservation for tables and first come first serve for the bar.<br />
+                            Ownership of this NFT represents exclusive
+                            access to “The NFT Yacht Club” community and
+                            access to a members-only yacht lounge. As an
+                            NFT member you will have access to our fine
+                            dining restaurant located on the first level, a
+                            bustling cocktail cigar lounge on the second
+                            level, a premium nightlife experience on the
+                            third level and enjoy the outdoor sky deck on
+                            the fourth level.
                             <br />
-                            As a member you will be entitled to one or two guests dependent on low peak-high peak days. Food and beverage sold separately and are not included in the token price. Payment for beverages will be accepted in USD, CC, POTC/ETH, and SOL.
+                            <br />
+                            Food and Beverage will be sold separately and
+                            are not included in the token price.
+                            Token Holder will be granted access and 1-9
+                            guests depending on the token they own.
                         </Typography>
                     </Zoom>
                 </Container>
