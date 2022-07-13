@@ -32,15 +32,15 @@ function Hero() {
                             }, mt: 4 }} >
                         <Box sx={{
                             width: {
-                                md: '50%',
+                                md: '100%',
                                 xs: '100%'
                             },display: 'flex', justifyContent: 'center', alignItems: {
                                 md:'start',
                                 xs:'center'
                             },flexDirection:'column'
                         }} >
-                            <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'start', flexDirection: 'column', width:{
-                                md:'90%',
+                            <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', width:{
+                                md:'100%',
                                 xs:'100%'
                             }, height: {
                                 md:'450px',
@@ -53,7 +53,7 @@ function Hero() {
                                     fontSize: {
                                         md:'22px',
                                         xs:'16px'
-                                    }, fontFamily: 'Bitter', fontWeight: 'medium', color: '#FFFFFF'
+                                    }, fontFamily: 'Bitter', fontWeight: 'medium', color: '#FFFFFF',textAlign:'center'
                                 }} component="div">
                                     <Box component={'span'} sx={{ fontSize: {
                                         md:'32px',
@@ -73,13 +73,13 @@ function Hero() {
                                         xs:'16px'
                                     }, color: 'white', fontFamily: 'AvenirNextRegular', fontWeight: 600, textTransform: 'capitalize', boxShadow: 'none', transition: 'all 0.3s ease', background: 'linear-gradient(#535353,#B5B5B5 )', "&:hover": {
                                         background: 'linear-gradient(#535353,#B5B5B5 )', boxShadow: 'none'
-                                    }, mt: 4
+                                    }, mt: 8
                                 }} >
                                     Become a Member
                                 </Button>
                             </Box>
                         </Box>
-                        <Box sx={{
+                        {/* <Box sx={{
                             width: {
                                 md: '50%',
                                 xs: '100%'
@@ -104,7 +104,7 @@ function Hero() {
                                     loop={true}
                                 />
                             </Box>
-                        </Box>
+                        </Box> */}
                     </Box>
                     </Zoom>
                 </Container>

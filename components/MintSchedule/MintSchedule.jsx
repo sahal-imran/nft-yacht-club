@@ -247,7 +247,7 @@ function MintSchedule() {
                                         xs: '20px'
                                     }, fontFamily: 'Bitter', fontWeight: 'medium', color: '#FFFFFF',
                                 }} component="div">
-                                    500 tokens*<br />
+                                    500 tokens<br />
                                     400 Gold<br />
                                     100 Platinum<br />
                                 </Typography>

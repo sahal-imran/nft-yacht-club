@@ -228,7 +228,7 @@ const faqHowitwork = [
   {
     id: 6,
     question: 'When is the Mint?',
-    answer: 'This collection will be available for purchase July 28th, 2022. Whitelist will be able to mint an hour before.'
+    answer: 'This collection will go live in August 2022. You can check out our discord for additional information!'
   },
   {
     id: 7,
@@ -238,7 +238,7 @@ const faqHowitwork = [
   {
     id:28,
     question: 'Is there an age requirement to be a token holder?',
-    answer: 'Eth is the cryptocurrency of Ethereum and it can be purchased on coinbase.'
+    answer: 'There is no age to be a token holder. However, all laws in states and cities will apply.'
   },
   {
     id: 8,

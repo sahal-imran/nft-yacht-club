@@ -12,6 +12,83 @@ import Grid from '@mui/material/Grid';
 import Zoom from 'react-reveal/Zoom';
 
 function Team() {
+
+    const [Hidayet_Bio, Set_Hidayet_Bio] = useState(true);
+    const [Steven_Bio, Set_Steven_Bio] = useState(false);
+    const [Jason_Bio, Set_Jason_Bio] = useState(false);
+
+    const HidayetPictureClick = () => {
+        Set_Hidayet_Bio(true);
+        Set_Steven_Bio(false);
+        Set_Jason_Bio(false);
+    }
+    const StevenPictureClick = () => {
+        Set_Hidayet_Bio(false);
+        Set_Steven_Bio(true);
+        Set_Jason_Bio(false);
+    }
+    const JasonPictureClick = () => {
+        Set_Hidayet_Bio(false);
+        Set_Steven_Bio(false);
+        Set_Jason_Bio(true);
+    }
+
+
+    const Bio = () => {
+        if (Hidayet_Bio) {
+            return <Typography variant="h2" sx={{
+                fontSize: {
+                    md: '24px',
+                    xs: '16px'
+                }, lineHeight: '30px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: 'center', mt: 6
+            }} component="div">
+                President & CEO Cornucopia Cruise Lines, established in 1997, and has grown to become New Jersey's & New York City's largest dinner,
+                sightseeing, wedding, corporate, and special event cruise line, operating seven vessels with three more in development.<br />
+                <br />
+                Hidayet is passionate about leading and growing a company that makes a profound difference in the lives of employees, guests, industry partners, and the community. His life mission since immigrating from Istanbul, Turkey has been to create opportunities for others to be successful. Hidayet focused on strategic planning, people development, pursuing growth, and new opportunities which have expanded
+                the Cornucopia Cruise Lines business effort now outside the tri-state to the South Florida Miami district.<br />
+                <br />
+                Hidayet is excited to help create The New NFT Yacht Club's sprawling yacht space, with each table being meticulously placed for
+                comfortability and unobstructed views. With rooftop lounges perched 4 stories up with 360-degree views, The Lounge will be the premier New York /Miami rooftop destination offering breathtaking views of the Biscayne Bay and Manhattan skyline, and the Hudson
+                River year-round.
+
+
+            </Typography>
+        }
+        else if (Steven_Bio) {
+            return <Typography variant="h2" sx={{
+                fontSize: {
+                    md: '24px',
+                    xs: '16px'
+                }, lineHeight: '30px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: 'center', mt: 6
+            }} component="div">
+                With more than 25 years of achievements in the luxury yacht and hospitality industries, Steven Tanzman has a rare depth of experience in the flawless execution of one-of-a-kind elegant events.<br />
+                <br />
+                Founded in 2003, his company, Yacht Events LLC, coordinates 5-star cuisine, service, and staged entertainment abroad world-class yachts and venues. Clients and guests include billionaire George Soros, business mogul Donald Trump, fashion icon Donna Karan, the Saudi Arabian Royal family, United Nations ambassadors, and several world champion teams of the NFL-NBA-NHL and MLB.<br />
+                <br />
+                As president of Yacht Events, Mr. Tanzman regularly navigates the course separating success from failure, where months or sometimes years of planning come down to a few hours with countless details perfectly executed. He always meets the challenge, whether it’s a private yacht sailing to an unconventional docking spot or hundreds of staff and rentals coordinated and brought to an island accessible only by ferry. His events range from small family or corporate celebrations to large galas with more than 2,000 guests.<br />
+            </Typography>
+        }
+        else if (Jason_Bio) {
+            return <Typography variant="h2" sx={{
+                fontSize: {
+                    md: '24px',
+                    xs: '16px'
+                }, lineHeight: '30px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: 'center', mt: 6
+            }} component="div">
+                Jason is a New York native entrepreneur. During High School, he spent most of his lunch and free periods in the library studying multiple different business and entrepreneurship subjects. Around the same time Jason was getting into blockchain, jokingly he states“ I'm from the bitconnect era" stating he still has some bitcoin stuck in the now-closed platform. After High School Jason remained self
+                educating himself on Web3 and Defi while simultaneously holding random jobs to pay for living expenses. Jason stated he spent a majority of his time reading everything he could about Cardano (ADA) as smart contract technology intrigued him the most. In
+                hindsight, he says Cardano helped him understand NFTs quite easily. After 5 years of experience in the newly emerging world of blockchain and being on the consumer end of the spectrum for most of it, Jason mentioned, "It was finally time to create a project of my
+                own".<br />
+                <br />
+                As a person who enjoys being a part of new projects and being a part of the public mint he quickly realized the lack of structure in the overall NFT market, as we are currently in a stage of an abundance of cash crab projects, projects that promise the world but deliver very little or worse, projects that successfully create an organic community and abandon the project after mint date. In short, Jason, coming from the consumer side understands the hardships that come with being rug pulled. Coming into this project there are three mottos Jason has built the foundation of this project on; The NFT Yacht Club's first purpose is to create value in endless utility for the token
+
+
+            </Typography>
+        }
+    }
+
+
     return (
         <>
             <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', background: '#1C1C1C', pt: 8, mt: -1 }} >
@@ -43,14 +120,14 @@ function Team() {
                     <Box sx={{ flexGrow: 1, width: '100%', mt: 10 }}>
                         <Grid container spacing={2}>
                             <Grid item xs={12} md={4}>
-                                <Box sx={{
+                                <Box onClick={() => HidayetPictureClick()} sx={{
                                     width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', borderRadius: '48px', flexDirection: 'column', px: 4, py: {
                                         md: 8,
                                         xs: 6
                                     }, "&:hover": {
                                         boxShadow: '0px 3px 70px rgba(255, 255, 255, 0.4) inset',
                                         border: '1px solid white',
-                                    }, border: '1px solid transparent', transition: 'all 0.3s ease'
+                                    }, border: '1px solid transparent', transition: 'all 0.3s ease',cursor:'pointer'
                                 }} >
                                     <Box sx={{ width: '200px', height: '200px' }} >
                                         <Zoom cascade >
@@ -78,14 +155,14 @@ function Team() {
                                 </Box>
                             </Grid>
                             <Grid item xs={12} md={4}>
-                                <Box sx={{
+                                <Box onClick={() => StevenPictureClick()} sx={{
                                     width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', borderRadius: '48px', flexDirection: 'column', px: 4, py: {
                                         md: 8,
                                         xs: 6
                                     }, "&:hover": {
                                         boxShadow: '0px 3px 70px rgba(255, 255, 255, 0.4) inset',
                                         border: '1px solid white',
-                                    }, border: '1px solid transparent', transition: 'all 0.3s ease'
+                                    }, border: '1px solid transparent', transition: 'all 0.3s ease',cursor:'pointer'
                                 }} >
                                     <Box sx={{ width: '200px', height: '200px' }} >
                                         <Zoom cascade >
@@ -113,14 +190,14 @@ function Team() {
                                 </Box>
                             </Grid>
                             <Grid item xs={12} md={4}>
-                                <Box sx={{
+                                <Box onClick={() => JasonPictureClick()} sx={{
                                     width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', borderRadius: '48px', flexDirection: 'column', px: 4, py: {
                                         md: 8,
                                         xs: 6
                                     }, "&:hover": {
                                         boxShadow: '0px 3px 70px rgba(255, 255, 255, 0.4) inset',
                                         border: '1px solid white',
-                                    }, border: '1px solid transparent', transition: 'all 0.3s ease'
+                                    }, border: '1px solid transparent', transition: 'all 0.3s ease',cursor:'pointer'
                                 }} >
                                     <Box sx={{ width: '200px', height: '200px' }} >
                                         <Zoom cascade >
@@ -151,19 +228,8 @@ function Team() {
                     </Box>
                     <Zoom cascade >
                         <Zoom cascade >
+                            {Bio()}
                         </Zoom>
-                        <Typography variant="h2" sx={{
-                            fontSize: {
-                                md: '24px',
-                                xs: '16px'
-                            }, lineHeight: '30px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: 'center', mt: 6
-                        }} component="div">
-                            With more than 25 years of achievements in the luxury yacht and hospitality industries, Steven Tanzman has a rare depth of experience in the flawless execution of one-of-a-kind elegant events.<br />
-                            <br />
-                            Founded in 2003, his company, Yacht Events LLC, coordinates 5-star cuisine, service, and staged entertainment abroad world-class yachts and venues. Clients and guests include billionaire George Soros, business mogul Donald Trump, fashion icon Donna Karan, the Saudi Arabian Royal family, United Nations ambassadors, and several world champion teams of the NFL-NBA-NHL and MLB.<br />
-                            <br />
-                            As president of Yacht Events, Mr. Tanzman regularly navigates the course separating success from failure, where months or sometimes years of planning come down to a few hours with countless details perfectly executed. He always meets the challenge, whether it’s a private yacht sailing to an unconventional docking spot or hundreds of staff and rentals coordinated and brought to an island accessible only by ferry. His events range from small family or corporate celebrations to large galas with more than 2,000 guests.<br />
-                        </Typography>
                     </Zoom>
                 </Container>
                 <Box id='ReadyToBoard' sx={{ width: '100%', mt: 18 }} >
