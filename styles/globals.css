@@ -108,12 +108,12 @@ a {
   background-size: cover;
 }
 #HowitWoksShortBG{
-  background-image: url("../public/bgshort.png");
+  background-image: url("/bgshort.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 #HowitWoksShortBG2{
-  background-image: url("../public/bgshort2.png");
+  background-image: url("/bgshort2.png");
   background-repeat: no-repeat;
   background-size: cover;
 }

@@ -53,6 +53,9 @@ function Hero() {
                                     fontSize: {
                                         md:'22px',
                                         xs:'16px'
+                                    },lineHeight: {
+                                        md:'30px',
+                                        xs:'24px'
                                     }, fontFamily: 'Bitter', fontWeight: 'medium', color: '#FFFFFF',textAlign:'center'
                                 }} component="div">
                                     <Box component={'span'} sx={{ fontSize: {

@@ -42,7 +42,10 @@ function Opensea() {
                             wodth: {
                                 md: '60%',
                                 xs: '100%'
-                            }, display: 'flex', justifyContent: 'center', alignItems: 'start', flexDirection: 'column', pl: {
+                            }, display: 'flex', justifyContent: 'center', alignItems: {
+                                md:'start',
+                                xs:'center'
+                            }, flexDirection: 'column', pl: {
                                 md: 8
                             }
                         }} >
@@ -53,7 +56,13 @@ function Opensea() {
                                         xs: '30px'
                                     }, lineHeight: {
                                         md: '55px'
-                                    }, fontFamily: 'AvenirNextRegular', color: '#FFFFFF', textTransform: 'capitalize',
+                                    }, fontFamily: 'AvenirNextRegular', color: '#FFFFFF', textTransform: 'capitalize',textAlign:{
+                                        md:'start',
+                                        xs:'center'
+                                    },mt:{
+                                        md:0,
+                                        xs:6
+                                    }
                                 }} component="div">
                                     As a NFT, the memberships are tradable on the secondary market.
                                 </Typography>
@@ -64,7 +73,10 @@ function Opensea() {
                                     }, lineHeight: {
                                         md: '30px',
                                         xs: '28px'
-                                    }, fontFamily: 'Bitter', fontWeight: 'bold', color: 'white', mt: 4
+                                    }, fontFamily: 'Bitter', fontWeight: 'bold', color: 'white', mt: 4,textAlign:{
+                                        md:'start',
+                                        xs:'center'
+                                    }
                                 }} component="div">
                                     What does it mean by the secondary market?
                                 </Typography>
@@ -75,7 +87,13 @@ function Opensea() {
                                     }, lineHeight: {
                                         md: '30px',
                                         xs: '28px'
-                                    }, fontFamily: 'Bitter', fontWeight: 'light', color: 'white'
+                                    }, fontFamily: 'Bitter', fontWeight: 'light', color: 'white',textAlign:{
+                                        md:'start',
+                                        xs:'center'
+                                    },mt:{
+                                        md:0,
+                                        xs:2
+                                    }
                                 }} component="div">
                                     Once a person purchases the original token from Flyfish Club, all future transactions happen on a secondary market, such as Opensea.io.<br />
                                     OpenSea is the first and largest peer-to-peer marketplace for crypto goods (like an eBay for crypto assets), which include collectibles, gaming items, and other virtual goods backed by a blockchain. On OpenSea, anyone can buy or sell these items through a smart contract.
@@ -90,7 +108,10 @@ function Opensea() {
                                 xs: '30px'
                             }, lineHeight: {
                                 md: '55px'
-                            }, fontFamily: 'AvenirNextRegular', color: '#FFFFFF', textTransform: 'capitalize', mt: 8
+                            }, fontFamily: 'AvenirNextRegular', color: '#FFFFFF', textTransform: 'capitalize', mt: 8,textAlign:{
+                                md:'start',
+                                xs:'center'
+                            }
                         }} component="div">
                             After the process is successful, the Membership NFT will be automatically transferred into your hot wallet.
                         </Typography>

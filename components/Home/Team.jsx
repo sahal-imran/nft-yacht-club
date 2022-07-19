@@ -40,7 +40,10 @@ function Team() {
                 fontSize: {
                     md: '24px',
                     xs: '16px'
-                }, lineHeight: '30px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: 'center', mt: 6
+                },lineHeight: {
+                    md:'36px',
+                    xs:'24px'
+                }, fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: 'center', mt: 6
             }} component="div">
                 President & CEO Cornucopia Cruise Lines, established in 1997, and has grown to become New Jersey's & New York City's largest dinner,
                 sightseeing, wedding, corporate, and special event cruise line, operating seven vessels with three more in development.<br />
@@ -60,7 +63,10 @@ function Team() {
                 fontSize: {
                     md: '24px',
                     xs: '16px'
-                }, lineHeight: '30px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: 'center', mt: 6
+                },lineHeight: {
+                    md:'36px',
+                    xs:'24px'
+                }, fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: 'center', mt: 6
             }} component="div">
                 With more than 25 years of achievements in the luxury yacht and hospitality industries, Steven Tanzman has a rare depth of experience in the flawless execution of one-of-a-kind elegant events.<br />
                 <br />
@@ -74,7 +80,10 @@ function Team() {
                 fontSize: {
                     md: '24px',
                     xs: '16px'
-                }, lineHeight: '30px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: 'center', mt: 6
+                },lineHeight: {
+                    md:'36px',
+                    xs:'24px'
+                }, fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: 'center', mt: 6
             }} component="div">
                 Jason is a New York native entrepreneur. During High School, he spent most of his lunch and free periods in the library studying multiple different business and entrepreneurship subjects. Around the same time Jason was getting into blockchain, jokingly he states“ I'm from the bitconnect era" stating he still has some bitcoin stuck in the now-closed platform. After High School Jason remained self
                 educating himself on Web3 and Defi while simultaneously holding random jobs to pay for living expenses. Jason stated he spent a majority of his time reading everything he could about Cardano (ADA) as smart contract technology intrigued him the most. In

@@ -15,7 +15,7 @@ function Access() {
         <>
             <Box id='Access' sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center',mt:{
                 md:0,
-                xs:-1
+                xs:-'2px'
             } }} >
                 <Container maxWidth="lg" sx={{ minHeight: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
                 <Zoom cascade >
@@ -31,7 +31,10 @@ function Access() {
                         fontSize: {
                             md: '24px',
                             xs: '16px'
-                        }, lineHeight: '30px', fontFamily: 'Bitter', fontWeight: 'light', color: '#FFFFFF', textAlign: 'center', mt: 4
+                        },lineHeight: {
+                            md:'36px',
+                            xs:'24px'
+                        }, fontFamily: 'Bitter', fontWeight: 'light', color: '#FFFFFF', textAlign: 'center', mt: 4
                     }} component="div">
                         Ownership of this NFT will represent exclusive access to a network of yachts around the world. The NFT Yacht Club will primarily begin by allowing token holders access to a luxurious 4-story yacht which will include a fine dining, cigar lounge, cocktail lounge, and social experiences in New York City and Miami with the long-term goal of expanding internationally. Onboard the USCG-certified yacht we will offer a variety of drinks ranging from pre-prohibition cocktails to modern mojitos. We have collaborated with the most seasoned mixologist in New York to guarantee a fresh new experience.
                     </Typography>

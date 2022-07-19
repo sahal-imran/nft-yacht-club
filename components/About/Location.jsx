@@ -35,7 +35,10 @@ function Location() {
                             fontSize: {
                                 md: '25px',
                                 xs: '16px'
-                            }, lineHeight: '30px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: 'center', mt: 4
+                            },lineHeight: {
+                                md:'36px',
+                                xs:'24px'
+                            }, fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: 'center', mt: 4
                         }} component="div">
                             The NFT Yacht Club docked at our New York City & Miami locations will provide members unlimited access to a private dining room that will span 5,000+ square feet. The space will consist of a bustling cigar cocktail lounge, upscale restaurant, the Havana Room private event space for up to 150 guests, and an outdoor rooftop lounge and music venue for 600-members. The first deck music venue with a NFT art-inspired design will feature state-of-the-art sound and lighting. In all just over 25,000 square feet of space.
                         </Typography>
@@ -94,7 +97,10 @@ function Location() {
                                 fontSize: {
                                     md: '35px',
                                     xs: '24px'
-                                }, lineHeight: '36px', fontFamily: 'AvenirNextRegular', color: '#FFFFFF', textTransform: 'capitalize', textAlign: 'center'
+                                },lineHeight: {
+                                    md:'36px',
+                                    xs:'24px'
+                                }, fontFamily: 'AvenirNextRegular', color: '#FFFFFF', textTransform: 'capitalize', textAlign: 'center'
                             }} component="div">
                                 The Food
                             </Typography>
@@ -102,7 +108,10 @@ function Location() {
                                 fontSize: {
                                     md: '25px',
                                     xs: '16px'
-                                }, lineHeight: '30px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: {
+                                },lineHeight: {
+                                    md:'30x',
+                                    xs:'24px'
+                                }, fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: {
                                     md: 'start',
                                     xs: 'center'
                                 }, mt: 2
@@ -159,7 +168,7 @@ function Location() {
                                     xs: '24px'
                                 }, lineHeight: {
                                     md: '50px',
-                                    xs: '40px'
+                                    xs: '32px'
                                 }, fontFamily: 'AvenirNextRegular', color: '#FFFFFF', textTransform: 'capitalize', textAlign: {
                                     md: 'start',
                                     xs: 'center'
@@ -171,7 +180,10 @@ function Location() {
                                 fontSize: {
                                     md: '25px',
                                     xs: '16px'
-                                }, lineHeight: '30px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: {
+                                }, lineHeight: {
+                                    md:'30px',
+                                    xs:'24px'
+                                }, fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: {
                                     md: 'start',
                                     xs: 'center'
                                 }, mt: 2

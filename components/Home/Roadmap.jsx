@@ -63,7 +63,10 @@ function Roadmap() {
                                 fontSize: {
                                     md: '24px',
                                     xs: '16px'
-                                }, lineHeight: '30px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: 'center'
+                                },lineHeight: {
+                                    md:'36px',
+                                    xs:'24px'
+                                }, fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: 'center'
                             }} component="div">
                                 Our goal at The NFT Yacht Club is to provide a
                                 lifetime of utility to our holders: Primarily

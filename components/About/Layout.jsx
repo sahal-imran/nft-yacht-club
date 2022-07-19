@@ -8,10 +8,12 @@ import Zoom from 'react-reveal/Zoom';
 function Layout() {
     return (
         <>
-            <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', background: '#171717', py: 12,mt:{
-                md:0,
-                xs:-1
-            } }} >
+            <Box sx={{
+                width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', background: '#171717', py: 12, mt: {
+                    md: 0,
+                    xs: -1
+                }
+            }} >
                 <Zoom cascade >
                     <Typography variant="h2" sx={{
                         fontSize: {
@@ -35,9 +37,19 @@ function Layout() {
                         }, height: {
                             md: '550px'
                         }, borderTopRightRadius: {
-                            md: '42px'
+                            md: '42px',
+                            xs: '30px'
                         }, borderBottomRightRadius: {
-                            md: '42px'
+                            md: '42px',
+                            xs: '30px'
+                        },
+                        borderBottomLeftRadius: {
+                            md: 'unset',
+                            xs: '30px'
+                        },
+                        borderTopLeftRadius: {
+                            md: 'unset',
+                            xs: '30px'
                         }, overflow: 'hidden'
                     }} >
                         <Zoom cascade >
@@ -75,7 +87,10 @@ function Layout() {
                                     fontSize: {
                                         md: '30px',
                                         xs: '16px'
-                                    }, lineHeight: '36px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: {
+                                    }, lineHeight: {
+                                        md:'36px',
+                                        xs:'24px'
+                                    }, fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: {
                                         md: 'start',
                                         xs: 'center'
                                     }, mt: 2
@@ -99,9 +114,18 @@ function Layout() {
                         }, height: {
                             md: '550px'
                         }, borderTopLeftRadius: {
-                            md: '42px'
+                            md: '42px',
+                            xs: '30px'
                         }, borderBottomLeftRadius: {
-                            md: '42px'
+                            md: '42px',
+                            xs: '30px'
+                        },
+                        borderBottomRightRadius: {
+                            md: 'unset',
+                            xs: '30px'
+                        }, borderTopRightRadius: {
+                            md: 'unset',
+                            xs: '30px'
                         }, overflow: 'hidden'
                     }} >
                         <Zoom cascade >
@@ -153,7 +177,10 @@ function Layout() {
                                     fontSize: {
                                         md: '30px',
                                         xs: '16px'
-                                    }, lineHeight: '36px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: {
+                                    }, lineHeight: {
+                                        md:'36px',
+                                        xs:'24px'
+                                    }, fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: {
                                         md: 'start',
                                         xs: 'center'
                                     }, mt: 2
@@ -229,9 +256,19 @@ function Layout() {
                         }, height: {
                             md: '550px'
                         }, borderTopRightRadius: {
-                            md: '42px'
+                            md: '42px',
+                            xs: '30px'
                         }, borderBottomRightRadius: {
-                            md: '42px'
+                            md: '42px',
+                            xs: '30px'
+                        },
+                        borderBottomLeftRadius: {
+                            md: 'unset',
+                            xs: '30px'
+                        },
+                        borderTopLeftRadius: {
+                            md: 'unset',
+                            xs: '30px'
                         }, overflow: 'hidden'
                     }} >
                         <Zoom cascade >
@@ -269,7 +306,10 @@ function Layout() {
                                     fontSize: {
                                         md: '30px',
                                         xs: '16px'
-                                    }, lineHeight: '36px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: {
+                                    }, lineHeight: {
+                                        md:'36px',
+                                        xs:'24px'
+                                    }, fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: {
                                         md: 'start',
                                         xs: 'center'
                                     }, mt: 2
@@ -287,6 +327,9 @@ function Layout() {
                                 fontSize: {
                                     md: '24px',
                                     xs: '16px'
+                                },lineHeight: {
+                                    md:'36px',
+                                    xs:'24px'
                                 }, fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: 'start', mt: 4
                             }} component="div">
                                 Whether you are on board for a business meeting, an intimate dinner date, or anything in between, our professional and attentive staff will provide an unforgettable experience. Our Cigar Bar is designed as a sleek midcentury styled lounge that transports guests to another place and time. True to the age of the decadent Havana High Life it will be a truly exquisite experience. The NFT Yacht Club’s premier walk-in humidor –will offer a selection of more than 400 premium hand-rolled cigars, ranging from rare pre-embargo Cubans to the finest handmade selections available on the cigar marketplace. <br />
@@ -311,9 +354,18 @@ function Layout() {
                         }, height: {
                             md: '550px'
                         }, borderTopLeftRadius: {
-                            md: '42px'
+                            md: '42px',
+                            xs: '30px'
                         }, borderBottomLeftRadius: {
-                            md: '42px'
+                            md: '42px',
+                            xs: '30px'
+                        },
+                        borderBottomRightRadius: {
+                            md: 'unset',
+                            xs: '30px'
+                        }, borderTopRightRadius: {
+                            md: 'unset',
+                            xs: '30px'
                         }, overflow: 'hidden'
                     }} >
                         <Zoom cascade >
@@ -365,7 +417,10 @@ function Layout() {
                                     fontSize: {
                                         md: '30px',
                                         xs: '16px'
-                                    }, lineHeight: '36px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: {
+                                    }, lineHeight: {
+                                        md:'36px',
+                                        xs:'24px'
+                                    }, fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: {
                                         md: 'start',
                                         xs: 'center'
                                     }, mt: 2
@@ -389,9 +444,19 @@ function Layout() {
                         }, height: {
                             md: '750px'
                         }, borderTopRightRadius: {
-                            md: '42px'
+                            md: '42px',
+                            xs: '30px'
                         }, borderBottomRightRadius: {
-                            md: '42px'
+                            md: '42px',
+                            xs: '30px'
+                        },
+                        borderBottomLeftRadius: {
+                            md: 'unset',
+                            xs: '30px'
+                        },
+                        borderTopLeftRadius: {
+                            md: 'unset',
+                            xs: '30px'
                         }, overflow: 'hidden'
                     }} >
                         <Zoom cascade >
@@ -429,7 +494,10 @@ function Layout() {
                                     fontSize: {
                                         md: '30px',
                                         xs: '16px'
-                                    }, lineHeight: '36px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: {
+                                    },lineHeight: {
+                                        md:'36px',
+                                        xs:'24px'
+                                    }, fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: {
                                         md: 'start',
                                         xs: 'center'
                                     }, mt: 2

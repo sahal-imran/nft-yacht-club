@@ -26,7 +26,10 @@ function Hero() {
                                 fontSize: {
                                     md: '30px',
                                     xs: '16px'
-                                }, lineHeight: '36px', fontFamily: 'Bitter', fontWeight: 'medium', color: 'white', textAlign: 'center', mt: 4
+                                },lineHeight: {
+                                    md:'36px',
+                                    xs:'24px'
+                                }, fontFamily: 'Bitter', fontWeight: 'medium', color: 'white', textAlign: 'center', mt: 4
                             }} component="div">
                                 The NFT Yacht Club is the world’s first members-only cocktail lounge on the water where membership is purchased as in NFT and owned by the token holder.
                             </Typography>
@@ -36,7 +39,10 @@ function Hero() {
                                 fontSize: {
                                     md: '30px',
                                     xs: '14px'
-                                }, lineHeight: '36px', fontFamily: 'Bitter', fontWeight: 'medium', color: 'white', textAlign: 'center', mt: 2
+                                },lineHeight: {
+                                    md:'36px',
+                                    xs:'24px'
+                                }, fontFamily: 'Bitter', fontWeight: 'medium', color: 'white', textAlign: 'center', mt: 2
                             }} component="div">
                                 Created by Yacht Events LLC, a team with over 25 years in the luxury yacht events industry. But don’t just take our word for it! Look to the organizations that rely on us to meet their yacht needs. Our clients are principally fortune 500 companies who need creatively designed and flawlessly executed yacht events. They work with us because we do it all and we do it well.
                             </Typography>

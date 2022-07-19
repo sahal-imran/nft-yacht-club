@@ -135,7 +135,10 @@ function HowItWorks() {
                   fontSize: {
                     md: '25px',
                     xs: '16px'
-                  }, lineHeight: '30px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: {
+                  },lineHeight: {
+                    md:'36px',
+                    xs:'24px'
+                }, fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: {
                     md: 'start',
                     xs: 'center'
                   }, mt: 2,
@@ -180,7 +183,10 @@ function HowItWorks() {
                 fontSize: {
                   md: '30px',
                   xs: '16px'
-                }, lineHeight: '36px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: 'center', mt: 4
+                },lineHeight: {
+                  md:'36px',
+                  xs:'24px'
+              }, fontFamily: 'Bitter', fontWeight: 'light', color: 'white', textAlign: 'center', mt: 4
               }} component="div">
                 As an NFT, the membership
                 becomes an asset to the token
@@ -353,7 +359,10 @@ function HowItWorks() {
                   xs: '30px'
                 }, lineHeight: {
                   md: '55px'
-                }, fontFamily: 'AvenirNextRegular', color: '#FFFFFF', textTransform: 'capitalize',
+                }, fontFamily: 'AvenirNextRegular', color: '#FFFFFF', textTransform: 'capitalize',textAlign:{
+                  md:'start',
+                  xs:'center'
+                }
               }} component="div">
                 The memberships for NFTYC are in the form of a Non-Fungible Token (NFT). They will be available on our website in January 2022.
               </Typography>
@@ -457,7 +466,10 @@ function HowItWorks() {
                   xs: '30px'
                 }, lineHeight: {
                   md: '55px'
-                }, fontFamily: 'AvenirNextRegular', color: '#FFFFFF', textTransform: 'capitalize',
+                }, fontFamily: 'AvenirNextRegular', color: '#FFFFFF', textTransform: 'capitalize',textAlign:{
+                  md:'start',
+                  xs:'center'
+                }
               }} component="div">
                 When the drop happens (aka when the membership is available for purchase), you will need to have enough ETH in your own hot wallet to check out.
               </Typography>
@@ -480,7 +492,10 @@ function HowItWorks() {
                 xs: 2
               }
             }} >
-              <Box sx={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'start', flexDirection: 'column' }} >
+              <Box sx={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: {
+                md:'start',
+                xs:'center'
+              }, flexDirection: 'column' }} >
                 <Zoom cascade >
                   <Typography variant="h2" sx={{
                     fontSize: {
@@ -489,7 +504,10 @@ function HowItWorks() {
                     }, lineHeight: {
                       md: '30px',
                       xs: '28px'
-                    }, fontFamily: 'Bitter', fontWeight: 'bold', color: 'white'
+                    }, fontFamily: 'Bitter', fontWeight: 'bold', color: 'white',textAlign: {
+                      md: 'start',
+                      xs: 'center'
+                    }
                   }} component="div">
                     What is a hot wallet?
                   </Typography>
@@ -513,7 +531,10 @@ function HowItWorks() {
                     }, lineHeight: {
                       md: '30px',
                       xs: '28px'
-                    }, fontFamily: 'Bitter', fontWeight: 'bold', color: 'white', mt: 3
+                    }, fontFamily: 'Bitter', fontWeight: 'bold', color: 'white', mt: 3,textAlign: {
+                      md: 'start',
+                      xs: 'center'
+                    }
                   }} component="div">
                     Why do I need a hot wallet? Can’t I just transfer money from my account from a crypto exchange?
                   </Typography>
@@ -569,7 +590,10 @@ function HowItWorks() {
                   xs: '30px'
                 }, lineHeight: {
                   md: '55px'
-                }, fontFamily: 'AvenirNextRegular', color: '#FFFFFF', textTransform: 'capitalize',
+                }, fontFamily: 'AvenirNextRegular', color: '#FFFFFF', textTransform: 'capitalize',textAlign:{
+                  md:'start',
+                  xs:'center'
+                }
               }} component="div">
                 Once you own the NFTYC Membership NFT, you will be able to make reservations on our website. Non-token holders will not have the ability to make reservations.
               </Typography>
