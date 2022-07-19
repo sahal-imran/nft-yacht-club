@@ -60,7 +60,7 @@ function Location() {
                     }
                 }} >
                     <Zoom cascade >
-                        <img src="/sample1.png" alt="img" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                        <img src="/About/sample1.jpg" alt="img" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                     </Zoom>
                 </Box>
                 <Box sx={{
@@ -131,7 +131,7 @@ function Location() {
                     },overflow:'hidden'
                 }} >
                     <Zoom cascade >
-                        <img src="/sample2.png" alt="img" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                        <img src="/About/sample2.jpg" alt="img" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                     </Zoom>
                 </Box>
                 <Box sx={{

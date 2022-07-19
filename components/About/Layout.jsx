@@ -41,7 +41,7 @@ function Layout() {
                         }, overflow: 'hidden'
                     }} >
                         <Zoom cascade >
-                            <img src="/layout1.png" alt="img" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                            <img src="/About/layout1.jpg" alt="img" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                         </Zoom>
                     </Box>
                     <Box sx={{
@@ -105,7 +105,7 @@ function Layout() {
                         }, overflow: 'hidden'
                     }} >
                         <Zoom cascade >
-                            <img src="/layout2.png" alt="img" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                            <img src="/About/layout2.jpg" alt="img" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                         </Zoom>
                     </Box>
                     <Box sx={{
@@ -235,7 +235,7 @@ function Layout() {
                         }, overflow: 'hidden'
                     }} >
                         <Zoom cascade >
-                            <img src="/layout3.png" alt="img" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                            <img src="/About/layout3.jpg" alt="img" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                         </Zoom>
                     </Box>
                     <Box sx={{
@@ -317,7 +317,7 @@ function Layout() {
                         }, overflow: 'hidden'
                     }} >
                         <Zoom cascade >
-                            <img src="/layout4.png" alt="img" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                            <img src="/About/layout4.jpg" alt="img" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                         </Zoom>
                     </Box>
                     <Box sx={{
@@ -395,7 +395,7 @@ function Layout() {
                         }, overflow: 'hidden'
                     }} >
                         <Zoom cascade >
-                            <img src="/layout5.png" alt="img" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                            <img src="/About/layout5.jpg" alt="img" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                         </Zoom>
                     </Box>
                     <Box sx={{
