@@ -34,41 +34,39 @@ function FAQ() {
           <Box sx={{ width: '100%', mt: 8 }} >
             {
               faqHowitwork.map((item, index) => {
-                return <Zoom cascade key={index} >
-                  <Accordion sx={{ mt: 2 }} expanded={expanded === `panel${index}`} onChange={handleChange(`panel${index}`)}>
-                    <AccordionSummary
-                      expandIcon={<ExpandMoreIcon sx={{ color: '#22A3D8', fontSize: '41px' }} />}
-                      aria-controls="panel1bh-content"
-                      id="panel1bh-header"
-                      sx={{ backgroundColor: '#0F242B', py: 1 }}
-                    >
-                      <Typography variant="h2" sx={{
-                        fontSize: {
-                          md: '30px',
-                          xs: '18px'
-                        }, lineHeight: {
-                          md: '36px',
-                          xs: '24px'
-                        }, fontFamily: 'AvenirNextRegular', color: '#FFFFFF', textAlign: 'start',
-                      }} component="div">
-                        {item.question}
-                      </Typography>
-                    </AccordionSummary>
-                    <AccordionDetails sx={{ backgroundColor: '#0F242B' }} >
-                      <Typography variant="h2" sx={{
-                        fontSize: {
-                          md: '30px',
-                          xs: '16px'
-                        }, lineHeight: {
-                          md: '36px',
-                          xs: '24px'
-                        }, fontFamily: 'AvenirNextRegular', color: '#22A3D8', textAlign: 'start',
-                      }} component="div">
-                        {item.answer}
-                      </Typography>
-                    </AccordionDetails>
-                  </Accordion>
-                </Zoom>
+                return <Accordion key={index} sx={{ mt: 2 }} expanded={expanded === `panel${index}`} onChange={handleChange(`panel${index}`)}>
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon sx={{ color: '#22A3D8', fontSize: '41px' }} />}
+                    aria-controls="panel1bh-content"
+                    id="panel1bh-header"
+                    sx={{ backgroundColor: '#0F242B', py: 1 }}
+                  >
+                    <Typography variant="h2" sx={{
+                      fontSize: {
+                        md: '30px',
+                        xs: '18px'
+                      }, lineHeight: {
+                        md: '36px',
+                        xs: '24px'
+                      }, fontFamily: 'AvenirNextRegular', color: '#FFFFFF', textAlign: 'start',
+                    }} component="div">
+                      {item.question}
+                    </Typography>
+                  </AccordionSummary>
+                  <AccordionDetails sx={{ backgroundColor: '#0F242B' }} >
+                    <Typography variant="h2" sx={{
+                      fontSize: {
+                        md: '30px',
+                        xs: '16px'
+                      }, lineHeight: {
+                        md: '36px',
+                        xs: '24px'
+                      }, fontFamily: 'AvenirNextRegular', color: '#22A3D8', textAlign: 'start',
+                    }} component="div">
+                      {item.answer}
+                    </Typography>
+                  </AccordionDetails>
+                </Accordion>
               })
             }
           </Box>
@@ -236,7 +234,7 @@ const faqHowitwork = [
     answer: 'The total supply is 10,000 ( 8000 Gold & 2000 Platinum ) with 500 kept in our reserves.'
   },
   {
-    id:28,
+    id: 28,
     question: 'Is there an age requirement to be a token holder?',
     answer: 'There is no age to be a token holder. However, all laws in states and cities will apply.'
   },
