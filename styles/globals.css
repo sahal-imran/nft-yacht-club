@@ -129,7 +129,7 @@ a {
   cursor: pointer;
   margin-right: 40px;
 }
-.css-1o7lps4-MuiButtonBase-root-MuiAccordionSummary-root:not(.Mui-disabled) {
+/* .css-1o7lps4-MuiButtonBase-root-MuiAccordionSummary-root:not(.Mui-disabled) {
   border-radius: 17px;
   background: #0F242B;
 }
@@ -147,9 +147,10 @@ a {
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1uzzt7u-MuiPaper-root-MuiAccordion-root {
   background: #0F242B;
   border-radius: 17px;
-}
+} */ */
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.Mui-expanded.MuiAccordion-gutters.css-1uzzt7u-MuiPaper-root-MuiAccordion-root {
   margin-top: 16px;
+  background: #0F242B;
 }
 @media (min-width: 600px) {
   .css-7lqx49-MuiContainer-root {
