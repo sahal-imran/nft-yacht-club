@@ -28,7 +28,7 @@ function Experience() {
                                             xs: '100%'
                                         }, borderRadius: '48px', overflow: 'hidden'
                                     }} >
-                                        <img src="/gallery1.png" alt="img" style={{ width: '100%', height: '100%', object: 'cover' }} />
+                                        <img src="/Gallery/gallery1.png" alt="img" style={{ width: '100%', height: '100%', object: 'cover' }} />
                                     </Box>
                                 </Zoom>
                             </Grid>
@@ -40,7 +40,7 @@ function Experience() {
                                             xs: '100%'
                                         }, borderRadius: '48px', overflow: 'hidden'
                                     }} >
-                                        <img src="/gallery2.png" alt="img" style={{ width: '100%', height: '100%', object: 'cover' }} />
+                                        <img src="/Gallery/gallery2.png" alt="img" style={{ width: '100%', height: '100%', object: 'cover' }} />
                                     </Box>
                                 </Zoom>
                             </Grid>
@@ -52,7 +52,7 @@ function Experience() {
                                             xs: '100%'
                                         }, borderRadius: '48px', overflow: 'hidden'
                                     }} >
-                                        <img src="/gallery3.png" alt="img" style={{ width: '100%', height: '100%', object: 'cover' }} />
+                                        <img src="/Gallery/gallery3.png" alt="img" style={{ width: '100%', height: '100%', object: 'cover' }} />
                                     </Box>
                                 </Zoom>
                             </Grid>
@@ -64,7 +64,7 @@ function Experience() {
                                             xs: '100%'
                                         }, borderRadius: '48px', overflow: 'hidden'
                                     }} >
-                                        <img src="/gallery4.png" alt="img" style={{ width: '100%', height: '100%', object: 'cover' }} />
+                                        <img src="/Gallery/gallery4.png" alt="img" style={{ width: '100%', height: '100%', object: 'cover' }} />
                                     </Box>
                                 </Zoom>
                             </Grid>
@@ -76,7 +76,7 @@ function Experience() {
                                             xs: '100%'
                                         }, borderRadius: '48px', overflow: 'hidden'
                                     }} >
-                                        <img src="/gallery5.png" alt="img" style={{ width: '100%', height: '100%', object: 'cover' }} />
+                                        <img src="/Gallery/gallery5.png" alt="img" style={{ width: '100%', height: '100%', object: 'cover' }} />
                                     </Box>
                                 </Zoom>
                             </Grid>
@@ -88,7 +88,7 @@ function Experience() {
                                             xs: '100%'
                                         }, borderRadius: '48px', overflow: 'hidden'
                                     }} >
-                                        <img src="/gallery6.png" alt="img" style={{ width: '100%', height: '100%', object: 'cover' }} />
+                                        <img src="/Gallery/gallery6.png" alt="img" style={{ width: '100%', height: '100%', object: 'cover' }} />
                                     </Box>
                                 </Zoom>
                             </Grid>
@@ -100,7 +100,7 @@ function Experience() {
                                             xs: '100%'
                                         }, borderRadius: '48px', overflow: 'hidden'
                                     }} >
-                                        <img src="/gallery7.png" alt="img" style={{ width: '100%', height: '100%', object: 'cover' }} />
+                                        <img src="/Gallery/gallery7.png" alt="img" style={{ width: '100%', height: '100%', object: 'cover' }} />
                                     </Box>
                                 </Zoom>
                             </Grid>
@@ -112,7 +112,7 @@ function Experience() {
                                             xs: '100%'
                                         }, borderRadius: '48px', overflow: 'hidden'
                                     }} >
-                                        <img src="/gallery8.png" alt="img" style={{ width: '100%', height: '100%', object: 'cover' }} />
+                                        <img src="/Gallery/gallery8.png" alt="img" style={{ width: '100%', height: '100%', object: 'cover' }} />
                                     </Box>
                                 </Zoom>
                             </Grid>
@@ -124,7 +124,7 @@ function Experience() {
                                             xs: '100%'
                                         }, borderRadius: '48px', overflow: 'hidden'
                                     }} >
-                                        <img src="/gallery9.png" alt="img" style={{ width: '100%', height: '100%', object: 'cover' }} />
+                                        <img src="/Gallery/gallery9.png" alt="img" style={{ width: '100%', height: '100%', object: 'cover' }} />
                                     </Box>
                                 </Zoom>
                             </Grid>
