@@ -123,7 +123,7 @@ const Data = [
     {
         id: 5,
         Title: "The Mint Date",
-        subtitle: "August 2022",
+        subtitle: "",
         des: "The date the NFT will be available for purchase"
     }
     ,

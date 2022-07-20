@@ -147,7 +147,8 @@ function Member() {
                                             }} >
                                                 <img src="/eth.png" style={{ width: '100%', height: '100%', objectFit: 'contain' }} alt="img" />
                                             </Box>
-                                            1.5
+                                            {/* 1.5 */}
+                                            TBA
                                         </Typography>
                                     </Zoom>
                                 </Box>
@@ -170,7 +171,8 @@ function Member() {
                                             }} >
                                                 <img src="/eth.png" style={{ width: '100%', height: '100%', objectFit: 'contain' }} alt="img" />
                                             </Box>
-                                            5
+                                            {/* 5 */}
+                                            TBA
                                         </Typography>
                                     </Zoom>
                                 </Box>

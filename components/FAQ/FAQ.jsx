@@ -216,7 +216,7 @@ const faqHowitwork = [
   {
     id: 4,
     question: 'What is the Mint Price?',
-    answer: 'Platinum will be 5 ETH and Gold will be 1.5 ETH'
+    answer: 'The Price for the NFTs are TBA'
   },
   {
     id: 5,

@@ -29,7 +29,7 @@ function MintSchedule() {
                                 md: '85px'
                             }
                         }} component="div">
-                            mint schedule for August 2022
+                            mint schedule
                         </Typography>
                     </Zoom>
                     <Box sx={{ width: '90%', height: '1px', backgroundColor: '#95BCCE', opacity: .2, mt: 4 }} ></Box>
@@ -85,7 +85,8 @@ function MintSchedule() {
                                         md: 18
                                     }
                                 }} component="div">
-                                    12:00 PM
+                                    {/* 12:00 PM */}
+                                    TBA
                                 </Typography>
                             </Zoom>
                         </Box>
@@ -157,7 +158,8 @@ function MintSchedule() {
                                         md: 18
                                     }
                                 }} component="div">
-                                    1:00 PM
+                                    {/* 1:00 PM */}
+                                    TBA
                                 </Typography>
                             </Zoom>
                         </Box>

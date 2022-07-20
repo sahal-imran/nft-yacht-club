@@ -27,7 +27,7 @@ function NeedHelp() {
                                 xs: '24px'
                             }, fontFamily: 'Bitter', fontWeight: 'light', color: 'white', mt: 2
                         }} component="div">
-                            NFTs will be available for purchase on June 10th. Click below to get started.
+                            The date of launch will be announced soon!
                         </Typography>
                     </Zoom>
                     <Zoom cascade >
