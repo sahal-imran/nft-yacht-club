@@ -151,16 +151,16 @@ function Footer() {
                 md: 6
               }
             }} >
-              <AnchorLink href='' sx={{ textDecoration: 'none', width: '46px', height: '46px', mr: 2 }} >
+              <AnchorLink href='https://opensea.io/collection/the-nft-yacht-club' target={'_blank'} sx={{ textDecoration: 'none', width: '46px', height: '46px', mr: 2 }} >
                 <img src="/opensea.png" style={{ width: '100%', heigth: '100%', objectFit: 'contain' }} alt="img" />
               </AnchorLink>
-              <AnchorLink href='' sx={{ textDecoration: 'none', width: '46px', height: '46px', mr: 2 }} >
+              <AnchorLink href='https://twitter.com/thenftyachtclub' target={'_blank'} sx={{ textDecoration: 'none', width: '46px', height: '46px', mr: 2 }} >
                 <img src="/twitter.png" style={{ width: '100%', heigth: '100%', objectFit: 'contain' }} alt="img" />
               </AnchorLink>
-              <AnchorLink href='' sx={{ textDecoration: 'none', width: '46px', height: '46px', mr: 2 }} >
+              <AnchorLink href='https://www.instagram.com/thenftyachtclub/?igshid=YmMyMTA2M2Y=' target={'_blank'} sx={{ textDecoration: 'none', width: '46px', height: '46px', mr: 2 }} >
                 <img src="/instagram.png" style={{ width: '100%', heigth: '100%', objectFit: 'contain' }} alt="img" />
               </AnchorLink>
-              <AnchorLink href='' sx={{ textDecoration: 'none', width: '46px', height: '46px', mr: 2 }} >
+              <AnchorLink href='https://discord.com/invite/uZc8UcFhG4' target={'_blank'} sx={{ textDecoration: 'none', width: '46px', height: '46px', mr: 2 }} >
                 <img src="/discord.png" style={{ width: '100%', heigth: '100%', objectFit: 'contain' }} alt="img" />
               </AnchorLink>
             </Box>
