@@ -96,63 +96,63 @@ const Data = [
     {
         id: 1,
         Title: "Acquire The Yacht",
-        subtitle: "January 2022",
-        des: " Identify and acquire a USCG certified yacht and begin remodel for grand opening."
+        // subtitle: "January 2022",
+        des: "January 2022 - Identify and acquire a USCG certified yacht and begin remodel for grand opening."
     },
     {
         id: 2,
         Title: "Securing the Docking",
-        subtitle: "February 2022",
-        des: "Identify and secure location for docking in New York City & Miami"
+        // subtitle: "February 2022",
+        des: "February 2022 - Identify and secure location for docking in New York City & Miami."
     }
     ,
     {
         id: 3,
         Title: "The Platforms",
-        subtitle: "July 2022",
-        des: "Completion of Discord, Instagram, Twitter, Opensea and the Website."
+        // subtitle: "July 2022",
+        des: "July 2022 - Completion of Discord, Instagram, Twitter, Opensea and the Website."
     }
     ,
     {
         id: 4,
         Title: "Announcement of The NFT Yacht Club",
-        subtitle: "July 2022",
-        des: "Announcement of The NFT Yacht Club Mint Date."
+        // subtitle: "July 2022",
+        des: "July 2022 - Announcement of The NFT Yacht Club Mint Date."
     }
     ,
     {
         id: 5,
         Title: "The Mint Date",
-        subtitle: "",
-        des: "The date the NFT will be available for purchase"
+        // subtitle: "",
+        des: "The mint date will be announced!"
     }
     ,
     {
         id: 6,
         Title: "Summer/ Fall of 2022",
-        subtitle: "",
-        des: "Hoboken Private Cocktail party exclusively for and complimentary to 75 NFTYC members. Details to follow soon."
+        // subtitle: "",
+        des: "The NFT Yacht Club opens to our members, operating from New York City. A USCG certified yacht fully converted into the most exclusive Yacht with many surprise amenities from Fine Dining, Cocktail Lounge, Cigar Lounge and long term value to token holders."
     }
     ,
     {
         id: 7,
         Title: "Winter 2022",
-        subtitle: "",
+        // subtitle: "",
         des: "The NFT Yacht Club will travel down to Miami, Florida for select days then return back to New York, New York at the perfect times."
     }
     ,
     {
         id: 8,
         Title: "2023 Q1",
-        subtitle: "",
+        // subtitle: "",
         des: "Continue operating the most exclusive cocktail lounge yacht club in New York & Florida. Begin to host themed events including New Years, St Patrick's Day, July Fourth, Art Pop Ups, Special Guests and More! Select partnerships allowing a fixed amount of Blue Chip NFT’s access to the Yacht Club."
     }
     ,
     {
         id: 9,
         Title: "2023-2024",
-        subtitle: "",
-        des: "Continue operating the most exclusive yacht club in New York & Florida and finding creative ways to grow and expand The Yacht Club to more exclusive locations on earth. Stay Tuned."
+        // subtitle: "",
+        des: "Continue operating the most exclusive yacht club in New York & Florida and finding creative ways to grow and expand The NFT Yacht Club to more exclusive locations on earth. Stay Tuned."
     }
 ]
 

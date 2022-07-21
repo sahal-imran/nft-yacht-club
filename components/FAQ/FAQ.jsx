@@ -200,8 +200,8 @@ const faq = [
 const faqHowitwork = [
   {
     id: 1,
-    question: 'What is a Non-Fungible Token? (NFT)',
-    answer: 'A non-fungible token is a unique and non-interchangeable unit of data stored on a digital ledger. NFTs can be used to represent easily-reproducible items such as photos, videos, audio, and other types of digital files as unique items, and use blockchain technology to establish a verified and public proof of ownership.'
+    question: 'What is a Non-Fungible Token (NFT)?',
+    answer: 'A non-fungible token is a unique and non-interchangeable unit of data stored on a digital ledger. NFTs can be used to represent easily-reproducible items such as photos, videos, audio, and other types of digital files as unique items, and use technology to establish a verified and public proof of ownership'
   },
   {
     id: 2,
@@ -211,32 +211,22 @@ const faqHowitwork = [
   {
     id: 3,
     question: 'Do all tokens come with the same utility?',
-    answer: 'There are two types of tokens: The Gold Edition and the Platinum Edition..'
+    answer: 'Yes, the main difference between both editions is the number of guests they can bring, with more unique benefits coming to both tokens.'
   },
   {
     id: 4,
     question: 'What is the Mint Price?',
-    answer: 'The Price for the NFTs are TBA'
-  },
-  {
-    id: 5,
-    question: 'How does a token holder pay for their food and beverage on the yacht?',
-    answer: 'Eth is the cryptocurrency of Ethereum and it can be purchased on coinbase.'
+    answer: 'Price is TBA'
   },
   {
     id: 6,
     question: 'When is the Mint?',
-    answer: 'This collection will go live in August 2022. You can check out our discord for additional information!'
+    answer: 'The Mint Date will be announced shortly! (Q4 2022 )'
   },
   {
     id: 7,
     question: 'What is the Supply and Available Supply?',
     answer: 'The total supply is 10,000 ( 8000 Gold & 2000 Platinum ) with 500 kept in our reserves.'
-  },
-  {
-    id: 28,
-    question: 'Is there an age requirement to be a token holder?',
-    answer: 'There is no age to be a token holder. However, all laws in states and cities will apply.'
   },
   {
     id: 8,
@@ -251,7 +241,7 @@ const faqHowitwork = [
   {
     id: 10,
     question: 'Should I buy an NFT even though I am not in the USA?',
-    answer: 'As web3 continues to evolve we will see many platforms like Opensea implement leasing mechanisms where a token holder can lease “ rent out” their token to a non-token holder on a monthly basis, this could potentially create a new stream of income for many of our holders. We also expect a potential appreciation of the token value due to the amount of utility that comes with ownership of the token. After we successfully establish our presence in New York and Miami we will strategically begin to expand internationally'
+    answer:'As web3 continues to evolve we will see many platforms like Opensea implement leasing mechanisms where a token holder can lease “rent out” their token to a non-token holder on a monthly basis, this could potentially create a new stream of income for many of our holders. We also expect a potential appreciation of the token value due to the amount of utility that comes with ownership of the token. After we successfully establish our presence in New York and Miami we will strategically begin to expand internationally.'
   },
   {
     id: 11,
@@ -262,12 +252,17 @@ const faqHowitwork = [
   {
     id: 12,
     question: 'If I sell my token, are there fees associated with the transaction?',
-    answer: 'Yes, all secondary sales on Opensea include 2.5% to Opensea and 7.5% to The NFT Yacht Club, both of which are paid by the seller.'
+    answer: ' - Yes, all secondary sales on Opensea include 2.5% to Opensea and 7.5% to The NFT Yacht Club, both of which are paid by the seller.'
   },
   {
     id: 13,
     question: 'What does ownership of this NFT grant me?',
-    answer: 'Your token gives you membership and access to The NFT Yacht Club, a USCG CertifiedYacht with 4 levels which include the Main Dining Room, The Cigar Lounge, The Night Club and The SkyDeck Rooftop Lounge. All Food and Beverage costs are additional.'
+    answer: 'Your token gives you membership and access to The NFT Yacht Club, a USCG Certified Yacht with 4 levels which include the Main Dining Room, The Cigar Lounge, The Night Club and The SkyDeck Rooftop Lounge. All Food and Beverage costs are additional.'
+  },
+  {
+    id: 5,
+    question: 'How does a token holder pay for their food and beverage on the yacht?',
+    answer: 'To start, all payments will be in USD not cryptocurrency. We will implement cryptocurrency payments in the short future.'
   },
   {
     id: 15,
@@ -275,9 +270,14 @@ const faqHowitwork = [
     answer: 'We will have crypto ATMs onboard, NFT vending machines, and more!'
   },
   {
+    id: 8,
+    question: 'Is there an age requirement to be a token holder?',
+    answer: 'To board the Yacht the token must present a valid form of ID 21+ and older, as do his/her guests.'
+  },
+  {
     id: 16,
     question: 'If I don’t want to be a member any longer, can I sell my token? If so, how?',
-    answer: 'You can sell your token on the secondary market (i.e: Opensea.io).'
+    answer: 'You can sell your token on the secondary market (i.e: Opensea.io)'
   },
   {
     id: 18,
@@ -286,8 +286,8 @@ const faqHowitwork = [
   },
   {
     id: 19,
-    question: 'When will the NFT Yacht Club events start?',
-    answer: 'Q4 2022'
+    question: 'When will The NFT Yacht Club open?',
+    answer: 'Late Summer - Q4 2022'
   },
   {
     id: 20,
@@ -296,18 +296,18 @@ const faqHowitwork = [
   },
   {
     id: 21,
-    question: 'How many reservations can an NFTYC holder make each month?',
-    answer: 'Reservations are made on a first come, first serve basis to all token holders. You do not need a reservation to enjoy the restaurant, however, you’re also not guaranteed a table without a reservation. If there are available tables while you’re enjoying the cocktail room, token holders will be offered any available tables that exist.'
+    question: 'How do the reservations work?',
+    answer: 'Reservations are made on a first come, first serve basis to all token holders. You do not need a reservation to enjoy the restaurant, however, you are also not guaranteed a table without a reservation. If there are available tables while you are enjoying the rest of the yacht, token holders will be offered any available tables that exist.'
   },
   {
     id: 22,
     question: 'How far in advance can I make a reservation?',
-    answer: 'You can make your reservation up to 15 days in advance of the day you’d like to visit.'
+    answer: 'You can make your reservation up to 15 days in advance of the day you would like to visit.'
   },
   {
     id: 23,
     question: 'Is there a limit on the number of reservations a token holder can make?',
-    answer: 'NFT Yacht Club members can make as many reservations as they’d like.'
+    answer: 'NFT Yacht Club members can make as many reservations as they’d like'
   },
   {
     id: 24,
