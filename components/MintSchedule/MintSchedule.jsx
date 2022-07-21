@@ -130,7 +130,7 @@ function MintSchedule() {
                                     }, fontFamily: 'Bitter', fontWeight: 'medium', color: '#FFFFFF',
                                 }} component="div">
                                     5,000 Tokens<br />
-                                    3,500 Gold<br />
+                                    4,000 Gold<br />
                                     1000 Platinum<br />
                                     <br />
                                     → Wallets that won a guaranteed spot. Show up anytime in this window and easily mint your pass. If you don’t mint during this time, your pass may be claimed by someone on the waitlist.

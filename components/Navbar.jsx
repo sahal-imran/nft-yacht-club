@@ -29,34 +29,38 @@ function Navbar() {
       }, backgroundImage: 'linear-gradient(#A5A3A3, #EFEFEF)'
     }} >
       <Container maxWidth="lgBig" sx={{ height: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }} >
-        <Box component={'div'} sx={{
-          display: {
-            md: 'flex',
-            xs: 'none'
-          }, justifyContent: 'center', alignItems: 'center', position: 'relative', zIndex: 2
-        }} >
-          <Image
-            src="/logo.png"
-            alt="Logo"
-            width={344}
-            height={109}
-            objectFit={'contain'}
-          />
-        </Box>
-        <Box component={'div'} sx={{
-          display: {
-            md: 'none',
-            xs: 'flex'
-          }, justifyContent: 'center', alignItems: 'center', position: 'relative', zIndex: 2
-        }} >
-          <Image
-            src="/logo.png"
-            alt="Logo"
-            width={150}
-            height={80}
-            objectFit={'contain'}
-          />
-        </Box>
+        <Link href="/" >
+          <a style={{textDecoration:'none'}} >
+            <Box component={'div'} sx={{
+              display: {
+                md: 'flex',
+                xs: 'none'
+              }, justifyContent: 'center', alignItems: 'center', position: 'relative', zIndex: 2
+            }} >
+              <Image
+                src="/logo.png"
+                alt="Logo"
+                width={344}
+                height={109}
+                objectFit={'contain'}
+              />
+            </Box>
+            <Box component={'div'} sx={{
+              display: {
+                md: 'none',
+                xs: 'flex'
+              }, justifyContent: 'center', alignItems: 'center', position: 'relative', zIndex: 2
+            }} >
+              <Image
+                src="/logo.png"
+                alt="Logo"
+                width={150}
+                height={80}
+                objectFit={'contain'}
+              />
+            </Box>
+          </a>
+        </Link>
         <Box component={'div'} sx={{
           display: {
             md: "flex",
