@@ -95,7 +95,7 @@ function Opensea() {
                                         xs:2
                                     }
                                 }} component="div">
-                                    Once a person purchases the original token from Flyfish Club, all future transactions happen on a secondary market, such as Opensea.io.<br />
+                                    Once a person purchases the original token from NFT Yacht Club, all future transactions happen on a secondary market, such as Opensea.io.<br />
                                     OpenSea is the first and largest peer-to-peer marketplace for crypto goods (like an eBay for crypto assets), which include collectibles, gaming items, and other virtual goods backed by a blockchain. On OpenSea, anyone can buy or sell these items through a smart contract.
                                 </Typography>
                             </Zoom>
