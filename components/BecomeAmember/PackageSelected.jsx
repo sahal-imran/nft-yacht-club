@@ -118,7 +118,7 @@ function Gold() {
                                             <Typography variant="h2" sx={{
                                                 fontSize: '44px', lineHeight: '53px', fontFamily: 'Bitter', fontWeight: 'light', color: 'white', ml: 2
                                             }} component="div">
-                                                {PackageName === 'gold' ? "1.5" : "5"}
+                                                {PackageName === 'gold' ? "TBA" : "TBA"}
                                             </Typography>
                                         </Box>
                                     </Zoom>
