@@ -77,7 +77,7 @@ function TheArt() {
                                             }} className='player-wrapper'>
                                                 <ReactPlayer
                                                     className='react-player'
-                                                    url={router.pathname == '/about' ? '/video/video.mp4' : '/video/GOLD.mp4'}
+                                                    url={'/video/video.mp4'}
                                                     width='100%'
                                                     height='100%'
                                                     volume={0}
@@ -130,7 +130,7 @@ function TheArt() {
                                             }} className='player-wrapper'>
                                                 <ReactPlayer
                                                     className='react-player'
-                                                    url={router.pathname == '/about' ? '/video/video 2.mp4' : '/video/SILVER.mp4'}
+                                                    url={'/video/video 2.mp4'}
                                                     width='100%'
                                                     height='100%'
                                                     volume={0}
